@@ -1,0 +1,37 @@
+{
+  "name": "node-passportjs-rethinkdb-local",
+  "version": "1.0.0",
+  "description": "Passport example using local authentication strategy on top of RethinkDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rustysec/node-passportjs-rethinkdb-local.git"
+  },
+  "keywords": [
+    "rethinkdb",
+    "passportjs",
+    "nodejs"
+  ],
+  "author": "Russ Morris (RustySec)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rustysec/node-passportjs-rethinkdb-local/issues"
+  },
+  "homepage": "https://github.com/rustysec/node-passportjs-rethinkdb-local#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-session": "^1.13.0",
+    "jade": "^1.11.0",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "rethinkdb": "^2.3.2"
+  }
+}

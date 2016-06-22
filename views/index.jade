@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+  head
+    title= 'Login'
+  body
+
+    if (authed)
+      h1 You are logged in!
+      a(href="/logout") Logout!
+    else
+      h1 Login!
+      #container
+      p.
+      form(name="login", action="/login", method="post")
+        input(type="text", name="username")
+        input(type="password", name="password")
+        input(type="submit", value="login")
