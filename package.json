@@ -4,6 +4,7 @@
   "description": "Passport example using local authentication strategy on top of RethinkDB",
   "main": "index.js",
   "scripts": {
+    "start": "cross-env DEBUG=* node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,12 +27,15 @@
     "body-parser": "^1.15.2",
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.3",
+    "cross-env": "^5.0.0",
+    "dotenv": "^4.0.0",
     "express": "^4.14.0",
     "express-session": "^1.13.0",
-    "jade": "^1.11.0",
     "morgan": "^1.7.0",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
-    "rethinkdb": "^2.3.2"
+    "pug": "^2.0.0-rc.1",
+    "rethinkdb": "^2.3.2",
+    "rethinkdb-init": "^0.2.2"
   }
 }
